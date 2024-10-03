@@ -1,0 +1,106 @@
+/* Tools Container Styles */
+.tools-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+    background: linear-gradient(135deg, #e2e2e2 30%, #ffffff 90%); /* Gradient background */
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+/* Header Styles */
+.tools-container h1 {
+    text-align: center;
+    color: #003366; /* Dark blue */
+    margin-bottom: 1rem;
+    font-size: 2.8rem;
+    text-transform: uppercase;
+}
+
+.tools-container p {
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 1.2rem;
+    color: #666; /* Gray color */
+}
+
+/* Tools Grid Styles */
+.tools-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Responsive grid */
+    gap: 1.5rem; /* Space between cards */
+}
+
+/* Tool Card Styles */
+.tool-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffffff;
+    border-radius: 15px;
+    padding: 1.5rem;
+    transition: transform 0.2s, box-shadow 0.2s; /* Animation effect */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.tool-card:hover {
+    transform: translateY(-10px); /* Lift effect on hover */
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2); /* Deeper shadow on hover */
+}
+
+/* Tool Image Styles */
+.tool-image {
+    width: 100%;
+    max-width: 280px; /* Limit maximum width */
+    border-radius: 15px;
+    margin-bottom: 1rem;
+}
+
+/* Tool Title Styles */
+.tool-card h2 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    color: #003366; /* Dark blue */
+    text-align: center;
+}
+
+/* Tool Description Styles */
+.tool-card p {
+    text-align: center;
+    margin-bottom: 1rem;
+    color: #333; /* Darker text for readability */
+}
+
+/* Link Styles */
+.tool-link {
+    background-color: #007BFF; /* Primary color for buttons */
+    color: white;
+    padding: 0.6rem 1.2rem;
+    border-radius: 25px; /* Rounded button */
+    text-decoration: none;
+    transition: background-color 0.3s, transform 0.2s; /* Animation effect */
+}
+
+.tool-link:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+    transform: translateY(-2px); /* Slight lift on hover */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .tools-container {
+        padding: 1rem; /* Adjust padding for smaller screens */
+    }
+
+    .tool-card {
+        margin: 0.5rem; /* Reduce margin for smaller screens */
+    }
+
+    .tool-card h2 {
+        font-size: 1.25rem; /* Adjust title size */
+    }
+
+    .tool-image {
+        max-width: 100%; /* Ensure image is responsive */
+    }
+}

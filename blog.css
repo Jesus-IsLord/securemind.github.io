@@ -1,0 +1,96 @@
+
+
+/* Blog Section */
+.blog {
+   
+    margin: 0 auto; /* Center the blog section */
+    padding: 4.5rem;
+    background: rgba(255, 255, 255, 0.9); /* White background with transparency */
+    border-radius: 0px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Shadow for depth */
+    background-color: black;
+}
+
+/* General Blog Styles */
+.blog h2 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    font-size: 2rem; 
+    color: #007BFF; 
+}
+
+.blog-post {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem 0;
+    padding: 6rem;
+    background-color: #f9f9f9; 
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    position: relative; /* Positioning context for background image */
+    overflow: hidden; /* Hide overflow for better presentation */
+}
+
+/* Specific blog post backgrounds */
+.blog1 {
+    background-image: url('../images/blog1.jpg'); /* Corrected path */
+    background-size: cover;
+    background-position: center;
+}
+
+.blog2 {
+    background-image: url('../images/blog2.jpg'); /* Corrected path */
+    background-size: cover;
+    background-position: center;
+}
+
+.blog3 {
+    background-image: url('../images/blog3.jpg'); /* Add as needed */
+    background-size: cover;
+    background-position: center;
+}
+
+.blog4 {
+    background-image: url('../images/blog4.jpg'); /* Add as needed */
+    background-size: cover;
+    background-position: center;
+}
+
+.blog5 {
+    background-image: url('../images/blog5.jpg'); /* Add as needed */
+    background-size: cover;
+    background-position: center;
+}
+
+.blog-post h3 {
+    margin: 0.5rem 0;
+    font-size: 1.5rem; 
+}
+
+.blog-post h3 a {
+    text-decoration: none;
+    color: #007BFF; 
+}
+
+.blog-post h3 a:hover {
+    text-decoration: underline; 
+}
+
+.blog-post p {
+    margin: 0.5rem 0; 
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .blog {
+        padding: 1rem; 
+    }
+
+    .blog-post {
+        padding: 0.5rem; 
+    }
+
+    .blog-post h3 {
+        font-size: 1.25rem; 
+    }
+}

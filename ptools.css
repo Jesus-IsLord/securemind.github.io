@@ -1,0 +1,143 @@
+/* Prevention Container Styles */
+.prevention-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+    background: linear-gradient(135deg, #e6ffe6 30%, #ffffff 90%); /* Soft green gradient */
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+    position: relative; /* For decorative effect */
+    overflow: hidden; /* Contain pseudo-elements */
+}
+
+.prevention-container:before {
+    content: '';
+    position: absolute;
+    top: -20%;
+    left: -20%;
+    width: 150%;
+    height: 150%;
+    background: rgba(255, 255, 255, 0.1); /* Light overlay */
+    border-radius: 50%;
+    z-index: 0;
+    animation: pulse 10s infinite; /* Pulsing effect */
+}
+
+/* Pulse Animation */
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.05);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+/* Header Styles */
+.prevention-container h1 {
+    text-align: center;
+    color: #007300; /* Dark green */
+    margin-bottom: 1rem;
+    font-size: 2.8rem;
+    text-transform: uppercase;
+    z-index: 1; /* Bring above pseudo-element */
+}
+
+.prevention-container p {
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 1.2rem;
+    color: #555; /* Gray color */
+    z-index: 1;
+}
+
+/* Prevention Grid Styles */
+.prevention-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Responsive grid */
+    gap: 2rem; /* Space between cards */
+}
+
+/* Prevention Card Styles */
+.prevention-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffffff;
+    border-radius: 15px;
+    padding: 1.5rem;
+    transition: transform 0.3s, box-shadow 0.3s; /* Smooth animation */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+    position: relative; /* For hover effect */
+    z-index: 1; /* Bring above pseudo-element */
+}
+
+.prevention-card:hover {
+    transform: translateY(-10px); /* Lift effect on hover */
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3); /* Deeper shadow on hover */
+}
+
+/* Prevention Image Styles */
+.prevention-image {
+    width: 100%;
+    max-width: 280px; /* Limit maximum width */
+    border-radius: 15px;
+    margin-bottom: 1rem;
+    transition: transform 0.3s; /* Animation effect */
+}
+
+.prevention-image:hover {
+    transform: scale(1.05); /* Slight zoom on hover */
+}
+
+/* Prevention Title Styles */
+.prevention-card h2 {
+    font-size: 1.6rem;
+    margin-bottom: 0.5rem;
+    color: #007300; /* Dark green */
+    text-align: center;
+}
+
+/* Prevention Description Styles */
+.prevention-card p {
+    text-align: center;
+    margin-bottom: 1rem;
+    color: #333; /* Darker text for readability */
+}
+
+/* Link Styles */
+.prevention-link {
+    background-color: #007300; /* Green for buttons */
+    color: white;
+    padding: 0.6rem 1.2rem;
+    border-radius: 25px; /* Rounded button */
+    text-decoration: none;
+    transition: background-color 0.3s, transform 0.2s; /* Animation effect */
+}
+
+.prevention-link:hover {
+    background-color: #005700; /* Darker shade on hover */
+    transform: translateY(-2px); /* Slight lift on hover */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .prevention-container {
+        padding: 1rem; /* Adjust padding for smaller screens */
+    }
+
+    .prevention-card {
+        margin: 0.5rem; /* Reduce margin for smaller screens */
+    }
+
+    .prevention-card h2 {
+        font-size: 1.25rem; /* Adjust title size */
+    }
+
+    .prevention-image {
+        max-width: 100%; /* Ensure image is responsive */
+    }
+}
