@@ -144,7 +144,9 @@ nav {
     background-color: #eaeaea;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    
+     
+    width: 300px;
+    height: 400px;
     background-image: url("service1.jpg");
     background-size: ;
     background-position: center;
@@ -155,7 +157,8 @@ nav {
     background-color: #eaeaea;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    
+     width: 300px;
+    height: 400px;
     background-image: url("service2.jpg");
     background-size: ;
     background-position: center;
@@ -166,7 +169,8 @@ nav {
     background-color: #eaeaea;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-   
+    width: 300px;
+    height: 400px;
     background-image: url("servive3.jpg");
     background-size: ;
     background-position: center;
