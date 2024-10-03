@@ -12,7 +12,7 @@ body {
 }
 
 header {
-    background-image: url('../images/head1.png');
+    background-image: url('head1.png');
     background-size: cover;
     background-position: center;
     color: rgb(26, 26, 26);
@@ -91,7 +91,7 @@ nav {
 }
 
 .background-section {
-    background-image: url('../images/wall.jpeg');
+    background-image: url('wall.jpeg');
     position: relative;
     color: white;
     text-align: center;
@@ -146,7 +146,7 @@ nav {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     width: 300px;
     height: 400px;
-    background-image: url("../images/service1.jpg");
+    background-image: url("service1.jpg");
     background-size: cover;
     background-position: center;
 }
@@ -158,7 +158,7 @@ nav {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     width: 300px;
     height: 400px;
-    background-image: url("../images/service2.jpg");
+    background-image: url("service2.jpg");
     background-size: cover;
     background-position: center;
 }
@@ -170,7 +170,7 @@ nav {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     width: 300px;
     height: 400px;
-    background-image: url("../images/servive3.jpg");
+    background-image: url("servive3.jpg");
     background-size: cover;
     background-position: center;
 }
