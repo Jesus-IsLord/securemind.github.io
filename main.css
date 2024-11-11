@@ -318,3 +318,47 @@ footer p {
 .contact button:hover {
     background-color: #0056b3;
 }
+/* Why Choose SecureMind Section */
+.why-securemind {
+    text-align: center;
+    padding: 2em;
+    background-color: #f9f9f9; /* Adjust as needed to fit the site's theme */
+    border-radius: 10px;
+    margin: 2em 0; /* Adjust spacing if needed */
+}
+
+.why-securemind h2 {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 1em;
+    font-family: Arial, sans-serif; /* Match with existing font family */
+}
+
+.benefit-container {
+    position: relative;
+    height: 3em; /* Ensures consistent height for animation */
+}
+
+.benefit {
+    position: absolute;
+    width: 100%;
+    font-size: 1.5em;
+    color: #007BFF; /* Primary color for emphasis */
+    opacity: 0;
+    animation: fadeInOut 10s infinite ease-in-out;
+    font-family: Arial, sans-serif; /* Match with existing font family */
+}
+
+/* Animation Delay for Each Benefit */
+.benefit:nth-child(1) { animation-delay: 0s; }
+.benefit:nth-child(2) { animation-delay: 2s; }
+.benefit:nth-child(3) { animation-delay: 4s; }
+.benefit:nth-child(4) { animation-delay: 6s; }
+.benefit:nth-child(5) { animation-delay: 8s; }
+
+/* Animation Keyframes */
+@keyframes fadeInOut {
+    0%, 20%, 100% { opacity: 0; }
+    10%, 15% { opacity: 1; }
+}
+
