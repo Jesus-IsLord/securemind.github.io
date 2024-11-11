@@ -120,7 +120,9 @@ nav {
     position: relative;
     top: -40px; /* Adjust the value as needed */
 }
-
+.oro {
+    font-size:10px;
+}
 .about {
     padding: 2rem 0;
     text-align: center;
