@@ -48,14 +48,6 @@
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2); /* Deeper shadow on hover */
 }
 
-/* Tool Image Styles */
-.tool-image {
-    width: 100%;
-    max-width: 280px; /* Limit maximum width */
-    border-radius: 15px;
-    margin-bottom: 1rem;
-}
-
 /* Tool Title Styles */
 .tool-card h2 {
     font-size: 1.5rem;
@@ -98,9 +90,5 @@
 
     .tool-card h2 {
         font-size: 1.25rem; /* Adjust title size */
-    }
-
-    .tool-image {
-        max-width: 100%; /* Ensure image is responsive */
     }
 }
