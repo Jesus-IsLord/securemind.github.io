@@ -42,6 +42,46 @@
     transition: transform 0.2s, box-shadow 0.2s; /* Animation effect */
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
 }
+.Dtool1 {
+    background-image: url("Dtools1.png");
+    background-size: cover;
+    background-position: center;
+}
+.Dtool2 {
+    background-image: url("Dtools2.jpeg");
+    background-size: cover;
+    background-position: center;
+}
+.Dtool3 {
+    background-image: url("Dtools3.png");
+    background-size: cover;
+    background-position: center;
+}
+.Dtool4 {
+    background-image: url("Dtools4.png");
+    background-size: cover;
+    background-position: center;
+}
+.Dtool5 {
+    background-image: url("Dtools5.jpeg");
+    background-size: cover;
+    background-position: center;
+}
+.Dtool6 {
+    background-image: url("Dtools6.jpeg");
+    background-size: cover;
+    background-position: center;
+}
+.Dtool7 {
+    background-image: url("Dtools7.png");
+    background-size: cover;
+    background-position: center;
+}
+.Dtool8 {
+    background-image: url("Dtools8.png");
+    background-size: cover;
+    background-position: center;
+}
 
 .tool-card:hover {
     transform: translateY(-10px); /* Lift effect on hover */
