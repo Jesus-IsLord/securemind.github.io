@@ -84,44 +84,32 @@
     background-image: url('Ptool1.png');
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;
-    width: 150%;
-    height: 150%;
+
 }
 .Ptool2 {
     background-image: url('Ptool2.jpeg');
     background-size: cover;
     background-position: center;
-    width: 150%;
-    height: 150%;
 }
 .Ptool3 {
     background-image: url('Ptool3.jpeg');
     background-size: cover;
     background-position: center;
-   width: 150%;
-   height: 150%;
 }
 .Ptool4 {
     background-image: url('Ptool4.png');
     background-size: cover;
     background-position: center;
-    width: 150%;
-    height: 150%;
 }
 .Ptool5 {
     background-image: url('Ptool5.png');
     background-size: cover;
     background-position: center;
-    width: 150%;
-    height: 150%;
 }
 .Ptool6 {
     background-image: url('Ptool6.jpg');
     background-size: cover;
     background-position: center;
-    width: 150%;
-    height: 150%;
 }
 
 /* Prevention Title Styles */
