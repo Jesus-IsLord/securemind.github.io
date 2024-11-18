@@ -84,7 +84,7 @@
     background-image: url('Ptool1.png');
     background-size: cover;
     background-position: center;
-    object-fit: contain;
+    background-repeat: no-repeat;
 }
 .Ptool2 {
     background-image: url('Ptool2.jpeg');
