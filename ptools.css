@@ -80,17 +80,35 @@
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3); /* Deeper shadow on hover */
 }
 
-/* Prevention Image Styles */
-.prevention-image {
-    width: 100%;
-    max-width: 280px; /* Limit maximum width */
-    border-radius: 15px;
-    margin-bottom: 1rem;
-    transition: transform 0.3s; /* Animation effect */
+.Ptool1 {
+    background-image: url('Ptool1.png');
+    background-size: cover;
+    background-position: center;
 }
-
-.prevention-image:hover {
-    transform: scale(1.05); /* Slight zoom on hover */
+.Ptool2 {
+    background-image: url('Ptool2.jpeg');
+    background-size: cover;
+    background-position: center;
+}
+.Ptool3 {
+    background-image: url('Ptool3.jpeg');
+    background-size: cover;
+    background-position: center;
+}
+.Ptool4 {
+    background-image: url('Ptool4.png');
+    background-size: cover;
+    background-position: center;
+}
+.Ptool5 {
+    background-image: url('Ptool5.png');
+    background-size: cover;
+    background-position: center;
+}
+.Ptool6 {
+    background-image: url('Ptool6.jpg');
+    background-size: cover;
+    background-position: center;
 }
 
 /* Prevention Title Styles */
@@ -135,9 +153,5 @@
 
     .prevention-card h2 {
         font-size: 1.25rem; /* Adjust title size */
-    }
-
-    .prevention-image {
-        max-width: 100%; /* Ensure image is responsive */
     }
 }
