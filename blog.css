@@ -33,31 +33,31 @@
 
 /* Specific blog post backgrounds */
 .blog1 {
-    background-image: url('../images/blog1.jpg'); /* Corrected path */
+    background-image: url('b1.jpg'); /* Corrected path */
     background-size: cover;
     background-position: center;
 }
 
 .blog2 {
-    background-image: url('../images/blog2.jpg'); /* Corrected path */
+    background-image: url('b2.jpg'); /* Corrected path */
     background-size: cover;
     background-position: center;
 }
 
 .blog3 {
-    background-image: url('../images/blog3.jpg'); /* Add as needed */
+    background-image: url('b3.jpg'); /* Add as needed */
     background-size: cover;
     background-position: center;
 }
 
 .blog4 {
-    background-image: url('../images/blog4.jpg'); /* Add as needed */
+    background-image: url('b4.jpg'); /* Add as needed */
     background-size: cover;
     background-position: center;
 }
 
 .blog5 {
-    background-image: url('../images/blog5.jpg'); /* Add as needed */
+    background-image: url('b5.jpg'); /* Add as needed */
     background-size: cover;
     background-position: center;
 }
