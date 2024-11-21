@@ -1,4 +1,4 @@
-/* Tools Container Styles */
+
 .tools-container {
     max-width: 1200px;
     margin: 0 auto;
@@ -21,7 +21,7 @@
     text-align: center;
     margin-bottom: 2rem;
     font-size: 1.2rem;
-    color: #666; /* Gray color */
+    color: #333333; /* Gray color */
 }
 
 /* Tools Grid Styles */
@@ -99,7 +99,7 @@
 .tool-card p {
     text-align: center;
     margin-bottom: 1rem;
-    color: #333; 
+    color: #; 
 }
 
 /* Link Styles */
