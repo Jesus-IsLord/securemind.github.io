@@ -3,7 +3,7 @@
     max-width: 1200px;
     margin: 0 auto;
     padding: 2rem;
-    background: linear-gradient(135deg, #e2e2e2 30%, #ffffff 90%); /* Gradient background */
+    background: linear-gradient(135deg, #e2e2e2 30%, #ffffff 90%); 
     border-radius: 20px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
 }
@@ -11,7 +11,7 @@
 /* Header Styles */
 .tools-container h1 {
     text-align: center;
-    color: #003366; /* Dark blue */
+    color: #003366; 
     margin-bottom: 1rem;
     font-size: 2.8rem;
     text-transform: uppercase;
@@ -27,8 +27,8 @@
 /* Tools Grid Styles */
 .tools-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Responsive grid */
-    gap: 1.5rem; /* Space between cards */
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); 
+    gap: 1.5rem; 
 }
 
 /* Tool Card Styles */
@@ -39,7 +39,7 @@
     background-color: #ffffff;
     border-radius: 15px;
     padding: 1.5rem;
-    transition: transform 0.2s, box-shadow 0.2s; /* Animation effect */
+    transition: transform 0.2s, box-shadow 0.2s; 
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
 }
 .Dtool1 {
@@ -85,27 +85,26 @@
 
 .tool-card:hover {
     transform: translateY(-10px); /* Lift effect on hover */
-    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2); /* Deeper shadow on hover */
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2); 
 }
 
 /* Tool Title Styles */
 .tool-card h2 {
     font-size: 1.5rem;
     margin-bottom: 0.5rem;
-    color: #003366; /* Dark blue */
+    color: white; 
     text-align: center;
 }
 
-/* Tool Description Styles */
 .tool-card p {
     text-align: center;
     margin-bottom: 1rem;
-    color: #333; /* Darker text for readability */
+    color: #333; 
 }
 
 /* Link Styles */
 .tool-link {
-    background-color: #007BFF; /* Primary color for buttons */
+    background-color: #007BFF; 
     color: white;
     padding: 0.6rem 1.2rem;
     border-radius: 25px; /* Rounded button */
@@ -114,21 +113,21 @@
 }
 
 .tool-link:hover {
-    background-color: #0056b3; /* Darker shade on hover */
-    transform: translateY(-2px); /* Slight lift on hover */
+    background-color: #0056b3; 
+    transform: translateY(-2px); 
 }
 
 /* Responsive Design */
 @media (max-width: 768px) {
     .tools-container {
-        padding: 1rem; /* Adjust padding for smaller screens */
+        padding: 1rem; 
     }
 
     .tool-card {
-        margin: 0.5rem; /* Reduce margin for smaller screens */
+        margin: 0.5rem; 
     }
 
     .tool-card h2 {
-        font-size: 1.25rem; /* Adjust title size */
+        font-size: 1.25rem; 
     }
 }
