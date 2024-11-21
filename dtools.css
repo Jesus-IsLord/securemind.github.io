@@ -45,49 +45,41 @@
     background-image: url("Dtools1.png");
     background-size: cover;
     background-position: center;
-    filter: blur(8px);
 }
 .Dtool2 {
     background-image: url("Dtools2.jpeg");
     background-size: cover;
     background-position: center;
-    filter: blur(8px);
 }
 .Dtool3 {
     background-image: url("Dtools3.png");
     background-size: cover;
     background-position: center;
-    filter: blur(8px);
 }
 .Dtool4 {
     background-image: url("Dtools4.png");
     background-size: cover;
     background-position: center;
-    filter: blur(8px);
 }
 .Dtool5 {
     background-image: url("Dtools5.jpeg");
     background-size: cover;
     background-position: center;
-    filter: blur(8px);
 }
 .Dtool6 {
     background-image: url("Dtools6.jpeg");
     background-size: cover;
     background-position: center;
-    filter: blur(8px);
 }
 .Dtool7 {
     background-image: url("Dtools7.png");
     background-size: cover;
     background-position: center;
-    filter: blur(8px);
 }
 .Dtool8 {
     background-image: url("Dtools8.png");
     background-size: cover;
     background-position: center;
-    filter: blur(8px);
 }
 
 .tool-card:hover {
