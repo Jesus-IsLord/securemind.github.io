@@ -14,7 +14,22 @@
     gap: 1.5rem; /* Space between cards */
 }
 .body {
-    background-image: url("../images/education.jpg");
+    background-image: url("c0.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.c1 {
+    background-image: url("c1.png");
+    background-size: cover;
+    background-position: center;
+}
+.c2 {
+    background-image: url("c2.png");
+    background-size: cover;
+    background-position: center;
+}
+.c3 {
+    background-image: url("c3.png");
     background-size: cover;
     background-position: center;
 }
