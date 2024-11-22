@@ -90,12 +90,13 @@
     background-image: url('Ptool2.jpeg');
     background-size: cover;
     background-position: center;
-    filter: blur(0px);
+    filter: blur(1px);
 }
 .Ptool3 {
     background-image: url('Ptool3.jpeg');
     background-size: cover;
     background-position: center;
+    filter: blur(1px);
 }
 .Ptool4 {
     background-image: url('Ptool4.png');
