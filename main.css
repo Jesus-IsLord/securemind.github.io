@@ -295,6 +295,9 @@ footer {
     padding: 3rem 0;
     border-top: 5px solid #ff00ff;
 }
+.contact {
+padding-left: 80px;
+}
 
 footer p {
     margin: 0;
