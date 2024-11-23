@@ -343,10 +343,7 @@ footer p {
         margin-bottom: 20px;
     }
 }
-#securemind-section .benefit {
-    opacity: 0; /* Start with elements invisible */
-    animation: fadeInOut 12s ease-in-out infinite; /* Apply fadeInOut animation */
-}
+
 
 #securemind-section .benefit:nth-child(1) {
     animation-delay: 0s;
