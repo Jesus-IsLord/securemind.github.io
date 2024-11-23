@@ -343,6 +343,29 @@ footer p {
         margin-bottom: 20px;
     }
 }
+#securemind-section .benefit {
+    opacity: 0; /* Start with elements invisible */
+    animation: fadeInOut 12s ease-in-out infinite; /* Apply fadeInOut animation */
+}
 
+#securemind-section .benefit:nth-child(1) {
+    animation-delay: 0s;
+}
+#securemind-section .benefit:nth-child(2) {
+    animation-delay: 2s;
+}
+#securemind-section .benefit:nth-child(3) {
+    animation-delay: 4s;
+}
+#securemind-section .benefit:nth-child(4) {
+    animation-delay: 6s;
+}
+#securemind-section .benefit:nth-child(5) {
+    animation-delay: 8s;
+}
+@keyframes fadeInOut {
+    0%, 20%, 100% { opacity: 0; } /* Invisible at start, end, and after fade */
+    10%, 15% { opacity: 1; } /* Fully visible for a brief moment */
+}
 
 
