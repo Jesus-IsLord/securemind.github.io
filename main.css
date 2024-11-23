@@ -343,7 +343,10 @@ footer p {
         margin-bottom: 20px;
     }
 }
-
+#securemind-section .benefit {
+    opacity: 0; /* Start hidden */
+    animation: fadeInOut 10s ease-in-out infinite; /* Adjusted timing */
+}
 
 #securemind-section .benefit:nth-child(1) {
     animation-delay: 0s;
@@ -360,9 +363,12 @@ footer p {
 #securemind-section .benefit:nth-child(5) {
     animation-delay: 8s;
 }
+
 @keyframes fadeInOut {
-    0%, 20%, 100% { opacity: 0; } /* Invisible at start, end, and after fade */
-    10%, 15% { opacity: 1; } /* Fully visible for a brief moment */
+    0%, 80%, 100% { opacity: 0; } /* Hidden at start, end, and between cycles */
+    20%, 60% { opacity: 1; } /* Visible in the middle */
 }
+
+
 
 
