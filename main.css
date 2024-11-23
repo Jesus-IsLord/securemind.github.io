@@ -139,6 +139,45 @@ nav {
     justify-content: center;
     flex-wrap: wrap;
 }
+.projected-goal {
+    position: relative;
+    text-align: center;
+    color: #fff;
+    padding: 50px 20px;
+    background: url('p1.jpg') center/cover no-repeat; 
+    filter: blur(0px);
+    overflow: hidden;
+}
+
+.projected-goal:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6); 
+    z-index: 1;
+}
+
+.projected-goal-content {
+    position: relative;
+    z-index: 2;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.projected-goal h2 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.projected-goal p {
+    font-size: 1.5rem;
+    line-height: 1.8;
+}
 
 .service-item1 {
     margin: 1rem;
