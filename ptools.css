@@ -1,13 +1,12 @@
-/* Prevention Container Styles */
 .prevention-container {
     max-width: 1200px;
     margin: 0 auto;
     padding: 2rem;
-    background: linear-gradient(135deg, #e6ffe6 30%, #ffffff 90%); /* Soft green gradient */
+    background: linear-gradient(135deg, #e6ffe6 30%, #ffffff 90%); 
     border-radius: 20px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
-    position: relative; /* For decorative effect */
-    overflow: hidden; /* Contain pseudo-elements */
+    position: relative;
+    overflow: hidden; 
 }
 
 .prevention-container:before {
@@ -73,45 +72,51 @@
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
     position: relative; /* For hover effect */
     z-index: 1; /* Bring above pseudo-element */
+    filter: blur(3px); /* Apply blur to all cards */
 }
 
 .prevention-card:hover {
     transform: translateY(-10px); /* Lift effect on hover */
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3); /* Deeper shadow on hover */
+    filter: blur(1px); /* Reduce blur on hover */
 }
 
+/* Individual Background Images (Blur Applied) */
 .Ptool1 {
     background-image: url('Ptool1.png');
     background-size: cover;
     background-position: center;
-
+    filter: blur(3px); /* Add blur to the background */
 }
 .Ptool2 {
     background-image: url('Ptool2.jpeg');
     background-size: cover;
     background-position: center;
-    filter: blur(1px);
+    filter: blur(3px); /* Add blur */
 }
 .Ptool3 {
     background-image: url('Ptool3.jpeg');
     background-size: cover;
     background-position: center;
-    filter: blur(1px);
+    filter: blur(3px);
 }
 .Ptool4 {
     background-image: url('Ptool4.png');
     background-size: cover;
     background-position: center;
+    filter: blur(3px);
 }
 .Ptool5 {
     background-image: url('Ptool5.png');
     background-size: cover;
     background-position: center;
+    filter: blur(3px);
 }
 .Ptool6 {
     background-image: url('Ptool6.jpg');
     background-size: cover;
     background-position: center;
+    filter: blur(3px);
 }
 
 /* Prevention Title Styles */
