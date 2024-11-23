@@ -31,7 +31,7 @@ header h1 {
     letter-spacing: 3px;
     color: #fff;
     transition: transform 0.3s ease-in-out;
-    animation: fadeInUp 1s ease-out forwards;
+    animation: fadeInUp 2s ease-out;
 }
 
 header h1:hover {
@@ -90,7 +90,7 @@ nav {
     color: white;
     border-radius: 10px;
     margin: 5rem 0;
-    animation: fadeIn 2s ease-out forwards;
+    animation: fadeIn 2s ease-out;
 }
 
 @keyframes fadeIn {
@@ -143,7 +143,7 @@ nav {
     background-color: #fff;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
-    animation: slideInFromLeft 1s ease-out forwards;
+    animation: slideInFromLeft 1s ease-out;
 }
 
 @keyframes slideInFromLeft {
@@ -180,7 +180,7 @@ nav {
     box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
     position: relative;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
-    animation: fadeInUp 1.5s ease-out forwards;
+    animation: fadeInUp 1.5s ease-out;
 }
 
 .service-item1:hover, .service-item2:hover, .service-item3:hover {
@@ -319,18 +319,6 @@ footer p {
     margin-top: 4rem;
     border-radius: 10px;
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
-    animation: fadeInSection 1.5s ease-out forwards;
-}
-
-@keyframes fadeInSection {
-    0% {
-        opacity: 0;
-        transform: translateY(50px);
-    }
-    100% {
-        opacity: 1;
-        transform: translateY(0);
-    }
 }
 
 .comment-section h2 {
@@ -362,4 +350,5 @@ footer p {
 .comment-form button:hover {
     background-color: #ff00ff;
 }
+
 
