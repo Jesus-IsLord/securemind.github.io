@@ -16,13 +16,13 @@
     left: -20%;
     width: 150%;
     height: 150%;
-    background: rgba(255, 255, 255, 0.1); /* Light overlay */
+    background: rgba(255, 255, 255, 0.1); 
     border-radius: 50%;
     z-index: 0;
-    animation: pulse 10s infinite; /* Pulsing effect */
+    animation: pulse 10s infinite; 
 }
 
-/* Pulse Animation */
+/* Pulse Animation 
 @keyframes pulse {
     0% {
         transform: scale(1);
@@ -35,32 +35,31 @@
     }
 }
 
-/* Header Styles */
 .prevention-container h1 {
     text-align: center;
-    color: #007300; /* Dark green */
+    color: #007300; /* Dark green 
     margin-bottom: 1rem;
     font-size: 2.8rem;
     text-transform: uppercase;
-    z-index: 1; /* Bring above pseudo-element */
+    z-index: 1; /* Bring above pseudo-element 
 }
 
 .prevention-container p {
     text-align: center;
     margin-bottom: 2rem;
     font-size: 1.2rem;
-    color: #555; /* Gray color */
+    color: #555; 
     z-index: 1;
 }
 
-/* Prevention Grid Styles */
+/* Prevention Grid Styles 
 .prevention-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Responsive grid */
-    gap: 2rem; /* Space between cards */
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); 
+    gap: 2rem; 
 }
 
-/* Prevention Card Styles */
+/* Prevention Card Styles 
 .prevention-card {
     display: flex;
     flex-direction: column;
@@ -68,70 +67,64 @@
     background-color: #ffffff;
     border-radius: 15px;
     padding: 1.5rem;
-    transition: transform 0.3s, box-shadow 0.3s; /* Smooth animation */
+    transition: transform 0.3s, box-shadow 0.3s; 
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
-    position: relative; /* For hover effect */
-    z-index: 1; /* Bring above pseudo-element */
-    filter: blur(3px); /* Apply blur to all cards */
+    position: relative; /* For hover effect 
+    z-index: 1; /* Bring above pseudo-element 
 }
 
 .prevention-card:hover {
-    transform: translateY(-10px); /* Lift effect on hover */
-    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3); /* Deeper shadow on hover */
-    filter: blur(1px); /* Reduce blur on hover */
+    transform: translateY(-10px); 
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3); 
 }
 
-/* Individual Background Images (Blur Applied) */
 .Ptool1 {
     background-image: url('Ptool1.png');
     background-size: cover;
     background-position: center;
-    filter: blur(3px); /* Add blur to the background */
+
 }
 .Ptool2 {
     background-image: url('Ptool2.jpeg');
     background-size: cover;
     background-position: center;
-    filter: blur(3px); /* Add blur */
+    filter: blur(1px);
 }
 .Ptool3 {
     background-image: url('Ptool3.jpeg');
     background-size: cover;
     background-position: center;
-    filter: blur(3px);
+    filter: blur(1px);
 }
 .Ptool4 {
     background-image: url('Ptool4.png');
     background-size: cover;
     background-position: center;
-    filter: blur(3px);
 }
 .Ptool5 {
     background-image: url('Ptool5.png');
     background-size: cover;
     background-position: center;
-    filter: blur(3px);
 }
 .Ptool6 {
     background-image: url('Ptool6.jpg');
     background-size: cover;
     background-position: center;
-    filter: blur(3px);
 }
 
-/* Prevention Title Styles */
+/* Prevention Title Styles 
 .prevention-card h2 {
     font-size: 1.6rem;
     margin-bottom: 0.5rem;
-    color: #007300; /* Dark green */
+    color: #007300; /* Dark green 
     text-align: center;
 }
 
-/* Prevention Description Styles */
+/* Prevention Description Styles 
 .prevention-card p {
     text-align: center;
     margin-bottom: 1rem;
-    color: #333; /* Darker text for readability */
+    color: #333;
 }
 
 /* Link Styles */
@@ -141,25 +134,25 @@
     padding: 0.6rem 1.2rem;
     border-radius: 25px; /* Rounded button */
     text-decoration: none;
-    transition: background-color 0.3s, transform 0.2s; /* Animation effect */
+    transition: background-color 0.3s, transform 0.2s;
 }
 
 .prevention-link:hover {
-    background-color: #005700; /* Darker shade on hover */
-    transform: translateY(-2px); /* Slight lift on hover */
+    background-color: #005700; 
+    transform: translateY(-2px); 
 }
 
-/* Responsive Design */
+/* Responsive Design 
 @media (max-width: 768px) {
     .prevention-container {
-        padding: 1rem; /* Adjust padding for smaller screens */
+        padding: 1rem; 
     }
 
     .prevention-card {
-        margin: 0.5rem; /* Reduce margin for smaller screens */
+        margin: 0.5rem; 
     }
 
     .prevention-card h2 {
-        font-size: 1.25rem; /* Adjust title size */
+        font-size: 1.25rem; 
     }
 }
