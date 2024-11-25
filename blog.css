@@ -1,96 +1,124 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(120deg, #1a1a2e, #16213e);
+    color: white;
+    overflow-x: hidden;
+}
 
-
-/* Blog Section */
 .blog {
-   
-    margin: 0 auto; /* Center the blog section */
-    padding: 4.5rem;
-    background: rgba(255, 255, 255, 0.9); /* White background with transparency */
-    border-radius: 0px; /* Rounded corners */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Shadow for depth */
-    background-color: black;
-}
-
-/* General Blog Styles */
-.blog h2 {
+    margin: 0 auto;
+    padding: 3rem;
+    max-width: 1200px;
     text-align: center;
-    margin-bottom: 1.5rem;
-    font-size: 2rem; 
-    color: #007BFF; 
+    position: relative;
 }
 
+.blog .header h2 {
+    font-size: 2.8rem;
+    margin-bottom: 1rem;
+    color: #00d4ff;
+    text-transform: uppercase;
+    animation: fadeInDown 1s ease-in-out;
+}
+
+.blog .header p {
+    font-size: 1.2rem;
+    color: #cfcfcf;
+    animation: fadeInDown 1.5s ease-in-out;
+}
+
+.blog-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem;
+    margin-top: 2rem;
+}
 .blog-post {
-    display: flex;
-    flex-direction: column;
-    margin: 1rem 0;
-    padding: 6rem;
-    background-color: #f9f9f9; 
-    border-radius: 8px;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
-    position: relative; /* Positioning context for background image */
-    overflow: hidden; /* Hide overflow for better presentation */
+    position: relative;
+    background: rgba(0, 0, 0, 0.6);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    overflow: hidden;
+    cursor: pointer;
+    transition: transform 0.4s, box-shadow 0.4s;
 }
 
-/* Specific blog post backgrounds */
-.blog1 {
-    background-image: url('b1.jpg'); /* Corrected path */
-    background-size: cover;
-    background-position: center;
+.blog-post:hover {
+    transform: translateY(-10px) scale(1.03);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5);
 }
 
-.blog2 {
-    background-image: url('b2.jpg'); /* Corrected path */
-    background-size: cover;
-    background-position: center;
+.blog-post::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), transparent);
+    z-index: 1;
+    opacity: 0.8;
 }
 
-.blog3 {
-    background-image: url('b3.jpg'); /* Add as needed */
-    background-size: cover;
-    background-position: center;
-}
-
-.blog4 {
-    background-image: url('b4.jpg'); /* Add as needed */
-    background-size: cover;
-    background-position: center;
-}
-
-.blog5 {
-    background-image: url('b5.jpg'); /* Add as needed */
-    background-size: cover;
-    background-position: center;
+.blog-post .content {
+    position: relative;
+    z-index: 2;
+    padding: 2rem;
+    text-align: left;
+    color: white;
 }
 
 .blog-post h3 {
-    margin: 0.5rem 0;
-    font-size: 1.5rem; 
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    color: #00d4ff;
+    transition: color 0.3s;
 }
 
 .blog-post h3 a {
     text-decoration: none;
-    color: #007BFF; 
+    color: inherit;
 }
 
 .blog-post h3 a:hover {
-    text-decoration: underline; 
+    color: #ffa500;
 }
 
 .blog-post p {
-    margin: 0.5rem 0; 
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #d1d1d1;
 }
 
-/* Responsive Design */
-@media (max-width: 768px) {
-    .blog {
-        padding: 1rem; 
-    }
+.blog1 {
+    background: url('b1.jpg') no-repeat center center / cover;
+}
 
-    .blog-post {
-        padding: 0.5rem; 
-    }
+.blog2 {
+    background: url('b2.jpg') no-repeat center center / cover;
+}
 
-    .blog-post h3 {
-        font-size: 1.25rem; 
+.blog3 {
+    background: url('b3.jpg') no-repeat center center / cover;
+}
+
+.blog4 {
+    background: url('b4.jpg') no-repeat center center / cover;
+}
+
+.blog5 {
+    background: url('b5.jpg') no-repeat center center / cover;
+}
+
+@keyframes fadeInDown {
+    0% {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
     }
 }
