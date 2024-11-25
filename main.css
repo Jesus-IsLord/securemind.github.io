@@ -181,7 +181,7 @@ nav {
 .services {
     padding: 4rem 2rem;
     text-align: center;
-    background-color: #f4f4f4;
+    background-images: url("s1.jpg");
 }
 
 .service-container {
@@ -229,7 +229,7 @@ nav {
 }
 
 .service-item3 {
-    background-image: url("service3.jpg");
+    background-image: url("servive3.jpg");
 }
 
 .service-item h3 {
