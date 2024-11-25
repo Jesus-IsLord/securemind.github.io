@@ -111,7 +111,21 @@ body {
 .blog5 {
     background: url('b5.jpg') no-repeat center center / cover;
 }
-
+.blog6 {
+    background: url('b6.jpg') no-repeat center center / cover;
+}
+.blog7 {
+    background: url('b7.jpg') no-repeat center center / cover;
+}
+.blog8 {
+    background: url('b8.jpg') no-repeat center center / cover;
+}
+.blog9 {
+    background: url('b9.jpg') no-repeat center center / cover;
+}
+.blog10 {
+    background: url('b10.jpg') no-repeat center center / cover;
+}
 @keyframes fadeInDown {
     0% {
         opacity: 0;
