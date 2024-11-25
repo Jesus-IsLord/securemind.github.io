@@ -1,152 +1,166 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f8f9fa;
+    color: #333;
+}
+
 .prevention-container {
     max-width: 1200px;
-    margin: 0 auto;
+    margin: 2rem auto;
     padding: 2rem;
-    background: linear-gradient(135deg, #e6ffe6 30%, #ffffff 90%); 
+    background: linear-gradient(145deg, #e6ffe6 30%, #f9f9f9 90%);
     border-radius: 20px;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
     position: relative;
-    overflow: hidden; 
+    overflow: hidden;
+    z-index: 1;
 }
 
 .prevention-container:before {
     content: '';
     position: absolute;
-    top: -20%;
-    left: -20%;
-    width: 150%;
-    height: 150%;
-    background: rgba(255, 255, 255, 0.1); 
+    top: -30%;
+    left: -30%;
+    width: 160%;
+    height: 160%;
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.15), transparent 70%);
     border-radius: 50%;
     z-index: 0;
-    animation: pulse 10s infinite; 
+    animation: pulse 12s infinite;
 }
 
-/* Pulse Animation 
 @keyframes pulse {
-    0% {
+    0%, 100% {
         transform: scale(1);
     }
     50% {
-        transform: scale(1.05);
-    }
-    100% {
-        transform: scale(1);
+        transform: scale(1.1);
     }
 }
 
-.prevention-container h1 {
+h1 {
     text-align: center;
-    color: #007300; /* Dark green 
-    margin-bottom: 1rem;
     font-size: 2.8rem;
+    color: #007300;
     text-transform: uppercase;
-    z-index: 1;  
+    margin-bottom: 1rem;
+    position: relative;
+    z-index: 1;
 }
 
-.prevention-container p {
+p {
     text-align: center;
-    margin-bottom: 2rem;
     font-size: 1.2rem;
-    color: #555; 
+    margin-bottom: 2rem;
+    color: #555;
+    position: relative;
     z-index: 1;
 }
 
 .prevention-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); 
-    gap: 2rem; 
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 2rem;
 }
 
 .prevention-card {
     display: flex;
-    flex-direction: column;
+    justify-content: center;
     align-items: center;
-    background-color: #ffffff;
+    background-color: white;
     border-radius: 15px;
     padding: 1.5rem;
-    transition: transform 0.3s, box-shadow 0.3s; 
+    transition: transform 0.3s, box-shadow 0.3s;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    text-align: center;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
-    position: relative; /* For hover effect 
-    z-index: 1; 
 }
 
 .prevention-card:hover {
-    transform: translateY(-10px); 
-    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3); 
+    transform: translateY(-8px);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
 }
 
 .Ptool1 {
     background-image: url('Ptool1.png');
     background-size: cover;
     background-position: center;
-
 }
+
 .Ptool2 {
     background-image: url('Ptool2.jpeg');
     background-size: cover;
     background-position: center;
-    filter: blur(1px);
+    filter: grayscale(40%);
 }
+
 .Ptool3 {
     background-image: url('Ptool3.jpeg');
     background-size: cover;
     background-position: center;
-    filter: blur(1px);
+    filter: blur(2px);
 }
+
 .Ptool4 {
     background-image: url('Ptool4.png');
     background-size: cover;
     background-position: center;
 }
+
 .Ptool5 {
     background-image: url('Ptool5.png');
     background-size: cover;
     background-position: center;
 }
+
 .Ptool6 {
     background-image: url('Ptool6.jpg');
     background-size: cover;
     background-position: center;
 }
 
-s 
-.prevention-card h2 {
+.card-content {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 1rem;
+    border-radius: 10px;
+    z-index: 1;
+}
+
+h2 {
     font-size: 1.6rem;
     margin-bottom: 0.5rem;
-    color: #007300;  
-    text-align: center;
+    color: #007300;
 }
- 
-.prevention-card p {
-    text-align: center;
-    margin-bottom: 1rem;
-    color: #333;
-}
-.prevention-link {
-    background-color: #007300; 
+
+a {
+    background-color: #007300;
     color: white;
     padding: 0.6rem 1.2rem;
-    border-radius: 25px; 
+    border-radius: 25px;
     text-decoration: none;
-    transition: background-color 0.3s, transform 0.2s;
+    transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
-.prevention-link:hover {
-    background-color: #005700; 
-    transform: translateY(-2px); 
+a:hover {
+    background-color: #005700;
+    transform: translateY(-2px);
 }
- 
+
 @media (max-width: 768px) {
     .prevention-container {
-        padding: 1rem; 
+        padding: 1rem;
     }
 
-    .prevention-card {
-        margin: 0.5rem; 
+    h1 {
+        font-size: 2rem;
     }
 
-    .prevention-card h2 {
-        font-size: 1.25rem; 
+    p {
+        font-size: 1rem;
     }
 }
